@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muhammad Samran A</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Muhammad Samran A</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Schedule</a></li>
+      </ul>
+      <div class="nav-toggle" id="navToggle">&#9776;</div>
+      <div class="nav-toggle-group">
+        <button id="darkModeToggle" class="toggle-btn" title="Toggle Dark Mode">
+          <img src="assets/dark-mode.png" alt="Toggle Theme" class="toggle-icon" />
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="highlight">Muhammad Samran A</span></h1>
+        <p>A Web Developer & IoT Enthusiast</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Schedule Meeting</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="assets/your-hero-image.jpg" alt="Your Image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section fade-in">
+    <div class="section-title">About Me</div>
+    <div class="about-container">
+      <img src="assets/your-about-image.jpg" alt="About Image" class="about-img" />
+      <p>
+        I'm a 6th-semester Computer Science student passionate about building web applications and IoT solutions. I specialize in frontends and embedded systems using React, Node.js, Arduino, and more.
+      </p>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section fade-in">
+    <div class="section-title">Achievements</div>
+    <div class="achievement-card">
+      <img src="assets/adc-award.jpg" alt="ADC Achievement" />
+      <div>
+        <h3>🏆 ACCS Design Challenge (ADC) 2024 - <b>Winner</b></h3>
+        <p>Collaborated with my team to design an innovative IoT system. I handled frontend development and embedded integration. We secured 1st place nationally.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section fade-in">
+    <div class="section-title">Projects</div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h4>Smart Irrigation System</h4>
+        <p>IoT system using sensors and Firebase to automate watering schedules.</p>
+      </div>
+      <div class="project-card">
+        <h4>Student Dashboard App</h4>
+        <p>Built with React & Node.js, used by students to track academics.</p>
+      </div>
+      <div class="project-card">
+        <h4>Portfolio Website</h4>
+        <p>My personal site showcasing all achievements and projects.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Calendly Popup Script -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+<!-- Schedule Meeting Section -->
+<section id="contact" class="section fade-in">
+  <div class="section-title">Schedule a Meeting</div>
+  <div class="meeting-container">
+    <p class="meeting-intro">Want to collaborate or discuss a project? Click below to schedule a meeting.</p>
+    <a href="#" class="btn primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/muhammadsamran04/30min'}); return false;">
+      Schedule Meeting
+    </a>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Muhammad Samran A </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
