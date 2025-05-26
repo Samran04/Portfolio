@@ -10,23 +10,27 @@
 <body>
 
   <!-- Navbar -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">Muhammad Samran A</div>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Schedule</a></li>
-      </ul>
+<header>
+  <nav class="navbar">
+    <div class="logo">Muhammad Samran A</div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Schedule</a></li>
+    </ul>
+
+    <!-- Group both toggle and menu icon -->
+    <div class="nav-toggle-group">
+      <button class="toggle-btn" id="darkModeToggle">
+        <img src="assets/dark-mode.png" class="toggle-icon" />
+      </button>
       <div class="nav-toggle" id="navToggle">&#9776;</div>
-      <div class="nav-toggle-group">
-        <button id="darkModeToggle" class="toggle-btn" title="Toggle Dark Mode">
-          <img src="assets/dark-mode.png" alt="Toggle Theme" class="toggle-icon" />
-        </button>
-      </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
+</header>
+
 
   <!-- Hero Section -->
   <section class="hero">
@@ -40,7 +44,7 @@
         </div>
       </div>
       <div class="hero-img">
-        <img src="assets/your-hero-image.jpg" alt="Your Image" />
+        <img src="assets/hero-img.jpg" class="hero-img" alt="Your Image" />
       </div>
     </div>
   </section>
@@ -49,7 +53,7 @@
   <section id="about" class="section fade-in">
     <div class="section-title">About Me</div>
     <div class="about-container">
-      <img src="assets/your-about-image.jpg" alt="About Image" class="about-img" />
+      <img src="assets/about-img.jpg" alt="About Image" class="about-img" />
       <p>
         I'm a 6th-semester Computer Science student passionate about building web applications and IoT solutions. I specialize in frontends and embedded systems using React, Node.js, Arduino, and more.
       </p>
@@ -60,7 +64,7 @@
   <section id="achievements" class="section fade-in">
     <div class="section-title">Achievements</div>
     <div class="achievement-card">
-      <img src="assets/adc-award.jpg" alt="ADC Achievement" />
+      <img src="assets/adc-image.jpg" alt="ADC Achievement" />
       <div>
         <h3>🏆 ACCS Design Challenge (ADC) 2024 - <b>Winner</b></h3>
         <p>Collaborated with my team to design an innovative IoT system. I handled frontend development and embedded integration. We secured 1st place nationally.</p>
