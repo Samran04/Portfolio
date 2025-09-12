@@ -311,7 +311,8 @@ footer {
   }
 
   .logo {
-    padding-right: 3rem; /* prevent overlap */
+    padding-right: 3rem;
+    font-size: 25px; /* prevent overlap */
   }
 
   .toggle-icon {
